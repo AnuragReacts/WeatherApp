@@ -1,0 +1,31 @@
+<%- include("partials/header"); -%>
+<div class="mainHeading">
+  <h1 class="cityH1"><%= cityName %></h1>
+  <img src="<%= iconUrl %>" alt="">
+</div>
+
+<div class="set">
+  <div class="row">
+    <div class="col-lg-5">
+     <p><%= desp %></p>
+     <p><%= temp %>°C</p>
+    </div>
+    <div class="col-lg-5">
+     <p>Max Temp: <%= maxTemp %>°C</p>
+     <p>Min Temp: <%= minTemp %>°C</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-5">
+     <p>Pressure: <%= pressure %> hPa</p>
+     <p>Humidity: <%= humidity %>%</p>
+    </div>
+    <div class="col-lg-5">
+     <p>Wind Speed: <%= windSpeed %> m/s</p>
+     <p>Visibility: <%= visibility %> m</p>
+    </div>
+  </div>
+  <a href="/home"><button class="btn btn-info btn-lg btn-block">Back</button></a>
+</div>
+<%- include("partials/footer"); -%>
