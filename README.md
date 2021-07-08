@@ -1,4 +1,4 @@
-# Weather May Help
+# Weather May Help ⛅
 _Weather May Help!_ is a beautiful web application that allows its users to get live weather reports of any city worldwide on a single click.  
 It is super easy to use and very handy to make all your plans weather-proof.  
 On the fun part, it has also a cool emoji for every weather.
